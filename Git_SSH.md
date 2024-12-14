@@ -64,4 +64,8 @@ Git authentication is typically handled using different methods based on the typ
 - **SSH Configuration:**
   Ensure your SSH configuration (`~/.ssh/config`) is set up correctly if using non-default settings.
 
-Remember to replace placeholders (your_username, your_password, your_email@example.com) with your actual credentials. Choose the method that suits your setup and preferences.
+Remember to replace placeholders (your_username, your_password, your_email@example.com) with your actual credentials. 
+Choose the method that suits your setup and preferences.
+
+
+REFRENCE: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
