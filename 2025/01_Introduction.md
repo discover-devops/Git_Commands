@@ -19,9 +19,9 @@
 | Hosted or Local? | Local (on your system)                 | Cloud-based                         | Cloud or Self-hosted           | Cloud-based                         |
 | Purpose          | Version control of code                | Store & collaborate on Git projects | Full DevOps pipeline with Git  | Git repo hosting for teams          |
 | UI               | Command-line (CLI)                     | Web UI                              | Web UI + CI/CD                 | Web UI                              |
-| CI/CD            | ❌ Not built-in                         | ✅ GitHub Actions                    | ✅ Built-in (GitLab CI/CD)      | ✅ Bitbucket Pipelines               |
-| Issue Tracking   | ❌                                      | ✅                                   | ✅                              | ✅                                   |
-| Wiki / Docs      | ❌                                      | ✅                                   | ✅                              | ✅                                   |
+| CI/CD            | Not built-in                         | YesGitHub Actions                    | Built-in (GitLab CI/CD)      | Bitbucket Pipelines               |
+| Issue Tracking   | No                                     | Yes                                   | Yes                             | Yes                                  |
+| Wiki / Docs      | No                                     | Yes                                   | Yes                             | Yes                                   |
 | Best For         | Individual or team local code tracking | Open source & team collaboration    | DevOps automation & enterprise | Jira-integrated teams               |
 
 ---
