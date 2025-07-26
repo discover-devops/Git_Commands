@@ -89,4 +89,49 @@ Developer ↔ Central Repository (e.g. SVN)
 
 ---
 
+**popular VCS tools** used across the software industry, categorized by type:
+
+---
+
+##  **1. Centralized Version Control Systems (CVCS)**
+
+| Tool                                                 | Description                                 | Usage                                |
+| ---------------------------------------------------- | ------------------------------------------- | ------------------------------------ |
+| **SVN (Apache Subversion)**                          | One of the most widely used centralized VCS | Still used in legacy enterprise apps |
+| **CVS (Concurrent Versions System)**                 | One of the earliest VCS tools               | Mostly obsolete                      |
+| **Perforce (Helix Core)**                            | Enterprise-grade VCS, fast and scalable     | Used in gaming and large codebases   |
+| **Microsoft Team Foundation Version Control (TFVC)** | Part of Azure DevOps Services               | Used in .NET ecosystem               |
+
+---
+
+##  **2. Distributed Version Control Systems (DVCS)** – More Popular Today
+
+| Tool               | Description                                        | Usage                                                        |
+| ------------------ | -------------------------------------------------- | ------------------------------------------------------------ |
+| **Git**            | Most popular DVCS today, created by Linus Torvalds | Used by 90%+ of modern dev teams                             |
+| **Mercurial (hg)** | Similar to Git, simpler UI, fast                   | Used in some open source projects (e.g., older Python repos) |
+| **Bazaar (bzr)**   | Developed by Canonical (Ubuntu)                    | Limited usage today                                          |
+| **Fossil**         | Includes bug tracking and wiki                     | Lightweight projects                                         |
+
+---
+
+##  Git Hosting Platforms (Built on Git, offer additional features)
+
+| Platform        | Description                                                                  |
+| --------------- | ---------------------------------------------------------------------------- |
+| **GitHub**      | World's most popular Git platform, used for open source and private projects |
+| **GitLab**      | Offers CI/CD and DevOps tools, great for private hosting                     |
+| **Bitbucket**   | Developed by Atlassian, integrates well with Jira                            |
+| **Azure Repos** | Microsoft’s Git hosting within Azure DevOps                                  |
+
+---
+
+##  Which One Should You Learn First?
+
+**Start with Git** – It’s the industry standard.
+
+> If you know Git, you'll easily adapt to GitHub, GitLab, Bitbucket, or even CLI-based workflows.
+
+---
+
 
