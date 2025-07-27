@@ -156,4 +156,3 @@ git push
 
 ---
 
-Let me know if you want to continue with **Lab 10: Git Tagging and Releases** next.
