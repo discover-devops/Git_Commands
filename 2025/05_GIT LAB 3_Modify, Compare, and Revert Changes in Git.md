@@ -1,4 +1,3 @@
-Great. Here is your clean and easy-to-follow Git Lab 3 with no special characters or symbols.
 
 ---
 
