@@ -153,3 +153,80 @@ git status
 
 ---
 
+
+Lifecycle of a File in Git (3-Step Flow)
+
+<img width="1344" height="675" alt="image" src="https://github.com/user-attachments/assets/14c2c7b0-b55a-4671-a543-cac7a0d703f6" />
+
+
+This diagram perfectly illustrates the **Lifecycle of a File in Git** — from being just a file under your Operating System to becoming a fully tracked version-controlled asset inside Git.
+
+Let me explain each step clearly:
+
+---
+
+## 🔁 Lifecycle of a File in Git (3-Step Flow)
+
+---
+
+### STEP 1️
+
+**File is created**
+
+* At this point, the file is only in your folder.
+* It is **under control of the Operating System only**.
+* Git has no knowledge of this file yet.
+
+📌 Think of it as:
+“This file exists, but Git is ignoring it.”
+
+---
+
+### STEP 2️
+
+**You want Git to start tracking it**
+
+You run:
+
+```
+git add file_name
+```
+
+* This command **moves the file into the staging area**.
+* Git now knows: “You want to include this file in the next commit.”
+
+ The **Staging Area** is a temporary area where you review and prepare your changes.
+
+---
+
+### STEP 3️
+
+**You finalize and record the file into Git’s history**
+
+You run:
+
+```
+git commit -m "some message"
+```
+
+* This takes the file from the staging area
+* It creates a **permanent snapshot** inside your Git repository
+* The commit goes into the `.git` folder as part of the version history
+
+ At this stage, the file is officially under **Git version control**.
+
+---
+
+##  Summary
+
+| Step | State of the File | Description                            |
+| ---- | ----------------- | -------------------------------------- |
+| 1    | Untracked         | File created, only visible to OS       |
+| 2    | Staged            | `git add` moves it to staging          |
+| 3    | Committed         | `git commit` records it in Git history |
+
+---
+
+This diagram is a **great visual** to explain to beginners exactly **how Git takes control over a file step by step**.
+
+
