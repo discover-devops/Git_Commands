@@ -165,7 +165,7 @@ Let me explain each step clearly:
 
 ---
 
-## 🔁 Lifecycle of a File in Git (3-Step Flow)
+##  Lifecycle of a File in Git (3-Step Flow)
 
 ---
 
@@ -177,7 +177,7 @@ Let me explain each step clearly:
 * It is **under control of the Operating System only**.
 * Git has no knowledge of this file yet.
 
-📌 Think of it as:
+ Think of it as:
 “This file exists, but Git is ignoring it.”
 
 ---
