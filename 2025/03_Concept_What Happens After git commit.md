@@ -59,6 +59,9 @@ Now all match. But:
 
 ---
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5c80cc91-9969-46b5-a1f7-53cd9b10dc77" />
+
+
 ###  Summary:
 
 | Area              | After `commit`                       | Notes |
